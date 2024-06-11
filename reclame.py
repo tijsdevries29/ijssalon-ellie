@@ -29,3 +29,7 @@ def meervoudig(invoer_lijst):
     return laag_en_hoog(invoer_lijst)
 
 print(meervoudig([10,5,3,2,1,2,9]))
+
+def combinatie(invoer_lijst_2):
+    korte_lijst = meervoudig(invoer_lijst_2)
+    
